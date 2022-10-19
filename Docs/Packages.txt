@@ -1,0 +1,4 @@
+dotnet new mvc -f net6.0 --auth Indiviudal --use-local-db
+
+- EntityFrameworkCore   - Banco de Dados
+- IdentityFrameworkCore - Identificação e Autorização de Usuário
