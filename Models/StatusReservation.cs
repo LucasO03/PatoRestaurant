@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PatoRestaurant.Models;
 
-[Table ("Category")]
-public class Category
+[Table ("Status da Reserva")]
+public class StatusReservation
 {
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -15,11 +15,4 @@ public class Category
     [StringLength(30, ErrorMessage="O {0} deve possuir no máximo {1} caracteres")]
     public string Name { get; set; }
 
-    [Display(Name = "Foto Home")]
-    [StringLength(400)]
-    public string Image { get; set; }
-
-    [Display(Name = "Banner no Menu")]
-    [StringLength(400)]
-    public string Banner { get; set; }
 }

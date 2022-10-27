@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\etec\\Documents\\GitHub\\PatoRestaurant\\PatoRestaurant.csproj": {}
+    "C:\\Users\\etec\\Desktop\\PatoRestaurant\\PatoRestaurant.csproj": {}
   },
   "projects": {
-    "C:\\Users\\etec\\Documents\\GitHub\\PatoRestaurant\\PatoRestaurant.csproj": {
+    "C:\\Users\\etec\\Desktop\\PatoRestaurant\\PatoRestaurant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\etec\\Documents\\GitHub\\PatoRestaurant\\PatoRestaurant.csproj",
+        "projectUniqueName": "C:\\Users\\etec\\Desktop\\PatoRestaurant\\PatoRestaurant.csproj",
         "projectName": "PatoRestaurant",
-        "projectPath": "C:\\Users\\etec\\Documents\\GitHub\\PatoRestaurant\\PatoRestaurant.csproj",
+        "projectPath": "C:\\Users\\etec\\Desktop\\PatoRestaurant\\PatoRestaurant.csproj",
         "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\etec\\Documents\\GitHub\\PatoRestaurant\\obj\\",
+        "outputPath": "C:\\Users\\etec\\Desktop\\PatoRestaurant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",
