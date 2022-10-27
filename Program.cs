@@ -1,6 +1,8 @@
+global using PatoRestaurant.Data;
+global using PatoRestaurant.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using PatoRestaurant.Data;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
