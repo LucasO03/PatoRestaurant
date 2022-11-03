@@ -24,3 +24,14 @@ Para criar uma migração:
          - dotnet ef migrations add Criar-Banco - 
 3° - Comando para atualizar o banco de Dados
         dotnet ef database update
+
+
+Para realizar um sacfoldding do identity
+-- Passos opcionais
+dotnet aspnet-codegenerator identity -h
+
+-- Instalar o pacote Design
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+
+-- Extrair do pacote Identity as páginas
+dotnet aspnet-codegenerator identity -dc PatoRestaurant.Data
