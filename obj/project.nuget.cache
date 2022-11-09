@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eNPFHQHfMTlaPkOcbRz8v4cDmSTIlvPvqNLGgQ+bXElyZjxuh+d0yUVurEnwDN1mKLn+ADoWiokCfCvGQDigjw==",
+  "dgSpecHash": "0Id+JYMIcC5ehYe52lXNPm8LaBc95C1MIe0M1p+YYOx3jUC6OUZ+OjMN4pahMgqcaImRixvHa/f1AFve8tekvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\etec\\Documents\\GitHub\\PatoRestaurant\\PatoRestaurant.csproj",
+  "projectFilePath": "C:\\Users\\etec\\Desktop\\PatoRestaurant\\PatoRestaurant.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\etec\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\etec\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
