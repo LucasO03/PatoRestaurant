@@ -619,21 +619,6 @@ function toggleSidenav() {
 
 let referenceButtons = document.querySelector('[data-class]');
 
-window.addEventListener("resize", navbarColorOnResize);
-
-function navbarColorOnResize() {
-  if (window.innerWidth > 1200) {
-    if (referenceButtons.classList.contains('active') && referenceButtons.getAttribute('data-class') === 'bg-transparent') {
-      sidenav.classList.remove('bg-white');
-    } else {
-      sidenav.classList.add('bg-white');
-    }
-  } else {
-    sidenav.classList.add('bg-white');
-    sidenav.classList.remove('bg-transparent');
-  }
-}
-
 // Deactivate sidenav type buttons on resize and small screens
 window.addEventListener("resize", sidenavTypeOnResize);
 window.addEventListener("load", sidenavTypeOnResize);
@@ -675,6 +660,12 @@ function darkMode(el) {
   const svg = document.querySelectorAll('g');
 
   if (!el.getAttribute("checked")) {
+    
+    $.ajax({
+      url: '/Admin/Settings?data=dark-version',
+      type: 'PUT'
+    })
+
     body.classList.add('dark-version');
     for (var i = 0; i < hr.length; i++) {
       if (hr[i].classList.contains('dark')) {
@@ -740,6 +731,12 @@ function darkMode(el) {
     }
     el.setAttribute("checked", "true");
   } else {
+    
+    $.ajax({
+      url: '/Admin/Settings?data=""',
+      type: 'PUT'
+    });
+
     body.classList.remove('dark-version');
     for (var i = 0; i < hr.length; i++) {
       if (hr[i].classList.contains('light')) {
@@ -807,3 +804,4 @@ function darkMode(el) {
     el.removeAttribute("checked");
   }
 };
+

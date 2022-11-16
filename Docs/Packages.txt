@@ -23,7 +23,7 @@ Para criar uma migração:
         dotnet ef migrations add NOME_DA_MIGRAÇÃO
          - dotnet ef migrations add Criar-Banco - 
 3° - Comando para atualizar o banco de Dados
-        dotnet ef database update
+        "dotnet ef database update"
 
 
 Para realizar um sacfoldding do identity
